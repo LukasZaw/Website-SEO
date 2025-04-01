@@ -1,1 +1,7 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
 https://lukaszaw.github.io/Website-SEO/sitemap.xml
