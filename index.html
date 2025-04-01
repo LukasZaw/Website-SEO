@@ -50,18 +50,25 @@
     <title>ScreenSpot</title>
     <link rel="stylesheet" href="styles.css" />
 
-    <meta name="google-site-verification" content="ghEhEi7XqMd3pIC7xa2Wh7xbgQSFSFr6MhZkijEjS0M" />
+    <meta
+      name="google-site-verification"
+      content="ghEhEi7XqMd3pIC7xa2Wh7xbgQSFSFr6MhZkijEjS0M"
+    />
 
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-26HR717QJM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-26HR717QJM"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-26HR717QJM');
-</script>
-    
+      gtag("config", "G-26HR717QJM");
+    </script>
   </head>
   <body>
     <header>
@@ -85,7 +92,7 @@
         <article>
           <img src="img/article-1.jpg" height="200px" />
           <h3>Najbardziej oczekiwane premiery filmowe 2025 roku</h3>
-          <p>
+          <p class="article-text">
             Rok 2025 zbliża się wielkimi krokami, a dla kinomanów oznacza to
             mnóstwo ekscytujących premier! Wśród nich wyróżnia się kilka filmów,
             które na pewno przyciągną tłumy do kin. Po pierwsze, nie możemy
@@ -102,13 +109,13 @@
             całym świecie. Które z tych produkcji wywołują w Was najwięcej
             emocji? Zdecydowanie warto śledzić, co przyniesie ten filmowy rok!
           </p>
-          <a href="#" class="read-more">Czytaj więcej</a>
+          <button class="read-more-btn">Czytaj więcej</button>
         </article>
 
         <article>
           <img src="img/article-2.jpg" alt="Opis obrazka 2" />
           <h3>TOP 5 seriali, które warto obejrzeć w marcu</h3>
-          <p>
+          <p class="article-text">
             Marzec 2025 to czas, kiedy na platformach streamingowych zadebiutuje
             wiele interesujących seriali, które z pewnością umilą Wasz czas. Oto
             pięć tytułów, które warto mieć na uwadze: „The Boys” (Sezon 4): Po
@@ -126,7 +133,7 @@
             pełnym tajemnic, niebezpieczeństw i decyzji, które mogą zmienić bieg
             historii.
           </p>
-          <a href="#" class="read-more">Czytaj więcej</a>
+          <button class="read-more-btn">Czytaj więcej</button>
         </article>
 
         <article>
@@ -134,7 +141,7 @@
           <h3>
             Czy warto oglądać filmy w 4DX? Zalety i wady nowoczesnego kina
           </h3>
-          <p>
+          <p class="article-text">
             Technologia 4DX zyskała popularność na całym świecie, a wiele kin
             zaczęło oferować seanse z dodatkowymi efektami, które mają na celu
             całkowite zanurzenie widza w fabule filmu. Doświadczenie 4DX to
@@ -153,7 +160,7 @@
             efekty za zbędne, zwłaszcza jeśli preferują bardziej klasyczne
             podejście do kina.
           </p>
-          <a href="#" class="read-more">Czytaj więcej</a>
+          <button class="read-more-btn">Czytaj więcej</button>
         </article>
       </main>
     </div>
@@ -161,5 +168,7 @@
     <footer>
       <p>&copy; 2025</p>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
