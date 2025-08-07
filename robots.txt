@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-https://lukaszaw.github.io/Website-SEO/sitemap.xml
+Sitemap: https://lukaszaw.github.io/Website-SEO/sitemap.xml
